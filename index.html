@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Test js</title>
+</head>
+<body>
+    <div class="head">
+        <div class="cont">
+            <p class="logo">ArtemPoltavets</p>
+
+            <div class="links">
+                <p class="l"><a href="">Contacts</a></p>
+                <p class="l"><a href="">About me</a></p>
+                <p class="l"><a href="">JS</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow-container" id="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade active">
+          <img src="./imgs/img-1.jpg" alt="hello" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="./imgs/img-5.jpg" alt="hello" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="./imgs/img-4.jpg" alt="hello" style="width:100%">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-telegram"></i>
+      </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
